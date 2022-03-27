@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pmsgng/wheather-app-react/static/css/main.89eb2085.css",
-    "main.js": "/pmsgng/wheather-app-react/static/js/main.2baaeeb7.js",
-    "static/js/787.ead63303.chunk.js": "/pmsgng/wheather-app-react/static/js/787.ead63303.chunk.js",
-    "static/media/error-img.jpeg": "/pmsgng/wheather-app-react/static/media/error-img.a92b6eb89efd1ceb03a5.jpeg",
-    "static/media/warm-bg.jpeg": "/pmsgng/wheather-app-react/static/media/warm-bg.a7f83012aa30f33e19ee.jpeg",
-    "static/media/cold-bg.jpeg": "/pmsgng/wheather-app-react/static/media/cold-bg.a3f3f533d3caea133b5f.jpeg",
-    "index.html": "/pmsgng/wheather-app-react/index.html",
-    "main.89eb2085.css.map": "/pmsgng/wheather-app-react/static/css/main.89eb2085.css.map",
-    "main.2baaeeb7.js.map": "/pmsgng/wheather-app-react/static/js/main.2baaeeb7.js.map",
-    "787.ead63303.chunk.js.map": "/pmsgng/wheather-app-react/static/js/787.ead63303.chunk.js.map"
+    "main.css": "/wheather-app-react/static/css/main.0ad9e87c.css",
+    "main.js": "/wheather-app-react/static/js/main.8ac67329.js",
+    "static/js/787.ead63303.chunk.js": "/wheather-app-react/static/js/787.ead63303.chunk.js",
+    "static/media/error-img.jpeg": "/wheather-app-react/static/media/error-img.a92b6eb89efd1ceb03a5.jpeg",
+    "static/media/warm-bg.jpeg": "/wheather-app-react/static/media/warm-bg.a7f83012aa30f33e19ee.jpeg",
+    "static/media/cold-bg.jpeg": "/wheather-app-react/static/media/cold-bg.a3f3f533d3caea133b5f.jpeg",
+    "index.html": "/wheather-app-react/index.html",
+    "main.0ad9e87c.css.map": "/wheather-app-react/static/css/main.0ad9e87c.css.map",
+    "main.8ac67329.js.map": "/wheather-app-react/static/js/main.8ac67329.js.map",
+    "787.ead63303.chunk.js.map": "/wheather-app-react/static/js/787.ead63303.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89eb2085.css",
-    "static/js/main.2baaeeb7.js"
+    "static/css/main.0ad9e87c.css",
+    "static/js/main.8ac67329.js"
   ]
 }
