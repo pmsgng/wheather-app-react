@@ -53,7 +53,7 @@ function App() {
         <div className="search-box">
           <input 
             type="text"
-            placeholder='Найти...'
+            placeholder='Какая погода в...'
             className='search-bar'
             onChange={e => setQuery(e.target.value)}
             value={query}
