@@ -1,6 +1,15 @@
 import React from 'react';
 
+
 const WeatherBox = ({weather,dateBuilder}) => {
+    
+    function stringToUpperCase(str) {
+        if (!str) return str;
+      
+        return str[0].toUpperCase() + str.slice(1);
+      }
+      
+    
     return (
         <div>
             <div className="location-box">
@@ -12,7 +21,7 @@ const WeatherBox = ({weather,dateBuilder}) => {
                     {Math.round(weather.main.temp)}℃
                 </div>
                 <div className="weather">
-                    {weather.weather[0].main}
+                    {stringToUpperCase(weather.weather[0].description)}
                 </div>
             </div>
         </div>
