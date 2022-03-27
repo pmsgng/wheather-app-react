@@ -18,7 +18,7 @@ function App() {
     .then(result => {
       setWeather(result)
       setQuery('')
-      console.log(result)
+      console.log(result.name)
     })
     
   }
@@ -47,6 +47,11 @@ function App() {
     }
   }
 
+  const town = () => {
+    if(weather.name === 'Саратов') 
+      return <h2 className='saratov'>Город,где продырявили жопу Санька 🍑</h2>
+  }
+
   return (
     <div className={(typeof weather.main != 'undefined') ? ((weather.main.temp > 5) ? 'app warm' : 'app'): 'app'}>
       <main>
@@ -61,6 +66,7 @@ function App() {
           />
         </div>
         {renderWeather()}
+        {town()}
       </main>
     </div>
   );
