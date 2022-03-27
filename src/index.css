@@ -1,13 +1,121 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.app{
+  margin: 0 auto;
+  max-width: 24.375rem;
+  max-height: 52.75rem;
+  background-image: url('./img/cold-bg.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 2s ease-out;
+}
+.app.warm {
+  background-image: url('./img/warm-bg.jpeg');
+}
+.app.errorImg {
+  background-image: url('./img/error-img.jpeg');
+}
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+  padding: 1.5rem;
+}
+.search-box {
+  width: 100%;
+  margin: 0 0 4.6875rem;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255,255,255,.5);
+  border-radius: 0 0 1rem 1rem;
+  margin-top: -1.5rem;
+
+  box-shadow: 0px 5px rgba(0,0,0,0.2);
+
+  color: #313131;
+  font-size: 1.3rem;
+
+  transition: .4s ease-out;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255,255,255,0.75);
+}
+
+.location-box .location {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+
+.location-box .date {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,70,0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,.2);
+  border-radius: 1rem;
+
+  padding: 1rem 1.5rem;
+
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+}
+.error {
+  margin: 30px auto;
+  background-color: rgba(255,255,255,.2);
+  border-radius: 1rem;
+
+  padding: 1rem 1.5rem;
+
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
