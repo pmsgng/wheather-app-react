@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/wheather-app-react/static/css/main.744a6e29.css",
-    "main.js": "/wheather-app-react/static/js/main.19d8b6fc.js",
+    "main.js": "/wheather-app-react/static/js/main.c5ad4c06.js",
     "static/js/787.ead63303.chunk.js": "/wheather-app-react/static/js/787.ead63303.chunk.js",
     "static/media/error-img.jpeg": "/wheather-app-react/static/media/error-img.a92b6eb89efd1ceb03a5.jpeg",
     "static/media/warm-bg.jpeg": "/wheather-app-react/static/media/warm-bg.a7f83012aa30f33e19ee.jpeg",
     "static/media/cold-bg.jpeg": "/wheather-app-react/static/media/cold-bg.a3f3f533d3caea133b5f.jpeg",
     "index.html": "/wheather-app-react/index.html",
     "main.744a6e29.css.map": "/wheather-app-react/static/css/main.744a6e29.css.map",
-    "main.19d8b6fc.js.map": "/wheather-app-react/static/js/main.19d8b6fc.js.map",
+    "main.c5ad4c06.js.map": "/wheather-app-react/static/js/main.c5ad4c06.js.map",
     "787.ead63303.chunk.js.map": "/wheather-app-react/static/js/787.ead63303.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.744a6e29.css",
-    "static/js/main.19d8b6fc.js"
+    "static/js/main.c5ad4c06.js"
   ]
 }
