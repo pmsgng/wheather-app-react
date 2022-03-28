@@ -10,6 +10,7 @@ const api = {
 function App() {
   const [query,setQuery] = useState('');
   const [weather,setWeather] = useState({})
+  
 
   const search = (e) => {
     if(e.key === 'Enter')
@@ -18,7 +19,6 @@ function App() {
     .then(result => {
       setWeather(result)
       setQuery('')
-      console.log(result.name)
     })
     
   }
@@ -49,21 +49,25 @@ function App() {
 
 
   return (
-    <div className={(typeof weather.main != 'undefined') ? ((weather.main.temp > 5) ? 'app warm' : 'app'): 'app'}>
-      <main>
-        <div className="search-box">
-          <input 
-            type="text"
-            placeholder='Какая погода в...'
-            className='search-bar'
-            onChange={e => setQuery(e.target.value)}
-            value={query}
-            onKeyDown={search}
-          />
-        </div>
-        {renderWeather()}
-      </main>
+    <div className={(typeof weather.main != 'undefined') ? ((weather.main.temp > 5) ? 'container warm' : 'container'): 'container'}>
+      <div className={(typeof weather.main != 'undefined') ? ((weather.main.temp > 5) ? 'app warm' : 'app'): 'app'}>
+        <main>
+          <div className="search-box">
+            <input 
+              type="text"
+              placeholder='Какая погода в...'
+              className='search-bar'
+              onChange={e => setQuery(e.target.value)}
+              value={query}
+              onKeyDown={search}
+            />
+          </div>
+          {renderWeather()}
+        </main>
+      </div>
+
     </div>
+
   );
 }
 

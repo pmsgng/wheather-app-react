@@ -8,6 +8,15 @@ body {
   font-family: 'montseratt', sans-serif;
 }
 
+.container {
+  background: linear-gradient(43deg, #4158D0 0%, #c9e9fe 50%, #4158D0 100%);
+  transition: 2s ease-out;
+}
+
+.container.warm {
+  background: linear-gradient(43deg, rgba(200,80,192,1) 0%, rgba(255,204,112,1) 51%, rgba(200,80,192,1) 100%);
+}
+
 .app{
   margin: 0 auto;
   max-width: 24.375rem;
@@ -82,7 +91,8 @@ main {
 
 .weather-box .temp {
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin: 30px auto;
   background-color: rgba(255,255,255,.2);
   border-radius: 1rem;
@@ -96,6 +106,19 @@ main {
   text-shadow: 3px 6px rgba(50,50,70,0.5);
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box__btn {
+  margin: 0 auto;
+  background: transparent;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .3rem;
+  transition: .1s ease-in;
+  color: #FFF;
+}
+.weather-box__btn:active {
+  color: red;
 }
 
 .weather-box .weather {
@@ -118,10 +141,4 @@ main {
   text-shadow: 3px 6px rgba(50,50,70,0.5);
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
-}
-
-.saratov {
-  color: rgba(255, 255, 255, 0.781);
-  text-align: center;
-  margin: 1rem auto;
 }
